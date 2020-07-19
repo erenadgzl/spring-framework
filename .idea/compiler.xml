@@ -10,12 +10,14 @@
         <module name="postgre-example" />
         <module name="spring-elastic-search" />
         <module name="spring-mongo-rest-api" />
+        <module name="spring-boot-api-doc" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="postgre-example" options="-parameters" />
+      <module name="spring-boot-api-doc" options="-parameters" />
       <module name="spring-elastic-search" options="-parameters" />
       <module name="spring-mongo-rest-api" options="-parameters" />
     </option>

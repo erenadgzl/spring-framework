@@ -12,6 +12,7 @@
         <module>spring-mongo-rest-api</module>
         <module>spring-elastic-search</module>
         <module>postgre-example</module>
+        <module>spring-boot-api-doc</module>
     </modules>
 
 
