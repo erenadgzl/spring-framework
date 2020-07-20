@@ -13,6 +13,7 @@
         <module>spring-elastic-search</module>
         <module>postgre-example</module>
         <module>spring-boot-api-doc</module>
+        <module>spring-rabbitmq</module>
     </modules>
 
 
