@@ -2,16 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ebf47a4-1be4-40b1-8117-daac6edfd1a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-boot-api-doc/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-api-doc/spring-boot-api-doc.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-api-doc/src/main/java/com/springprojects/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-api-doc/src/main/java/com/springprojects/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-api-doc/src/main/java/com/springprojects/CarController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-api-doc/src/main/java/com/springprojects/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rabbitmq/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rabbitmq/spring-rabbitmq.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/springprojects/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/springprojects/config/RabbitMqConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/springprojects/listener/NotificationListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/springprojects/model/Notification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/springprojects/producer/NotificationProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rabbitmq/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rabbitmq/src/main/resources/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-api-doc/spring-boot-api-doc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-api-doc/spring-boot-api-doc.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,6 +24,7 @@
     <ignored path="$PROJECT_DIR$/spring-elastic-search/target/" />
     <ignored path="$PROJECT_DIR$/postgre-example/target/" />
     <ignored path="$PROJECT_DIR$/spring-boot-api-doc/target/" />
+    <ignored path="$PROJECT_DIR$/spring-rabbitmq/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,64 +49,110 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-api-doc/src/main/java/com/springprojects/CarController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#477#478#0" expanded="true" />
-                <element signature="e#499#500#0" expanded="true" />
-                <element signature="e#712#713#0" expanded="true" />
-                <element signature="e#741#742#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-api-doc/src/main/java/com/springprojects/SwaggerConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-api-doc/src/main/java/com/springprojects/Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-api-doc/src/main/java/com/springprojects/Car.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-boot-api-doc/pom.xml">
+        <entry file="file://$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/springprojects/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="308">
+              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#572#573#0" expanded="true" />
+                <element signature="e#634#635#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-rabbitmq/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/springprojects/model/Notification.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="567">
+              <caret line="49" column="18" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#333#334#0" expanded="true" />
+                <element signature="e#370#371#0" expanded="true" />
+                <element signature="e#430#431#0" expanded="true" />
+                <element signature="e#482#483#0" expanded="true" />
+                <element signature="e#518#519#0" expanded="true" />
+                <element signature="e#552#553#0" expanded="true" />
+                <element signature="e#604#605#0" expanded="true" />
+                <element signature="e#650#651#0" expanded="true" />
+                <element signature="e#682#683#0" expanded="true" />
+                <element signature="e#709#710#0" expanded="true" />
+                <element signature="e#750#751#0" expanded="true" />
+                <element signature="e#782#783#0" expanded="true" />
+                <element signature="e#816#817#0" expanded="true" />
+                <element signature="e#846#847#0" expanded="true" />
+                <element signature="e#892#893#0" expanded="true" />
+                <element signature="e#930#931#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/springprojects/listener/NotificationListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#214#215#0" expanded="true" />
+                <element signature="e#239#240#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/springprojects/config/RabbitMqConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="21" selection-start-line="21" selection-end-line="23" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#257#282#1" expanded="true" />
+                <element signature="e#333#360#1" expanded="true" />
+                <element signature="e#401#429#1" expanded="true" />
+                <element signature="e#528#529#0" expanded="true" />
+                <element signature="e#554#555#0" expanded="true" />
+                <element signature="e#742#743#0" expanded="true" />
+                <element signature="e#784#785#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/springprojects/producer/NotificationProducer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="743">
+              <caret line="42" column="52" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#494#521#1" expanded="true" />
+                <element signature="e#567#595#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-rabbitmq/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -120,7 +172,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="swagger" />
       </map>
     </option>
   </component>
@@ -159,6 +211,16 @@
         <option value="$PROJECT_DIR$/spring-boot-api-doc/src/main/java/com/springprojects/SwaggerConfig.java" />
         <option value="$PROJECT_DIR$/spring-boot-api-doc/src/main/java/com/springprojects/Application.java" />
         <option value="$PROJECT_DIR$/spring-boot-api-doc/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-api-doc/spring-boot-api-doc.iml" />
+        <option value="$PROJECT_DIR$/spring-rabbitmq/src/main/resources/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/spring-rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/springprojects/Notification.java" />
+        <option value="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/springprojects/model/Notification.java" />
+        <option value="$PROJECT_DIR$/spring-rabbitmq/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/springprojects/config/RabbitMqConfiguration.java" />
+        <option value="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/springprojects/listener/NotificationListener.java" />
+        <option value="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/springprojects/Application.java" />
+        <option value="$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/springprojects/producer/NotificationProducer.java" />
       </list>
     </option>
   </component>
@@ -192,25 +254,25 @@
             <path>
               <item name="spring-examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-api-doc" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-rabbitmq" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-api-doc" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-rabbitmq" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-api-doc" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-rabbitmq" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-api-doc" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-rabbitmq" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -218,18 +280,56 @@
             <path>
               <item name="spring-examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-api-doc" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-rabbitmq" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="springprojects" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="spring-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springprojects" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springprojects" type="462c0819:PsiDirectoryNode" />
+              <item name="listener" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springprojects" type="462c0819:PsiDirectoryNode" />
+              <item name="producer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -262,35 +362,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application (3)">
+  <component name="RunManager" selected="Spring Boot.Application (1)">
     <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="spring-elastic-search" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.springprojects.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springprojects.Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Application (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="postgre-example" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.springprojects.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springprojects.Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Application (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot-api-doc" />
+      <module name="spring-rabbitmq" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.springprojects.*" />
@@ -306,7 +380,46 @@
       <module name="spring-mongo-rest-api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.springprojects.*" />
+          <option name="PATTERN" value="com.springprojects.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springprojects.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-elastic-search" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springprojects.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springprojects.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="postgre-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springprojects.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springprojects.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-api-doc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springprojects.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -317,6 +430,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Application (1)" />
         <item itemvalue="Spring Boot.Application (3)" />
         <item itemvalue="Spring Boot.Application (2)" />
         <item itemvalue="Spring Boot.Application (1)" />
@@ -339,6 +453,7 @@
       <workItem from="1595065318921" duration="470000" />
       <workItem from="1595066284991" duration="13230000" />
       <workItem from="1595117388574" duration="12130000" />
+      <workItem from="1595273180167" duration="4990000" />
     </task>
     <task id="LOCAL-00001" summary="spring mongo db simple example">
       <created>1595074402090</created>
@@ -361,17 +476,31 @@
       <option name="project" value="LOCAL" />
       <updated>1595120641311</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="simple swagger example">
+      <created>1595172464416</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1595172464416</updated>
+    </task>
+    <task id="LOCAL-00005" summary="swagger">
+      <created>1595172662763</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1595172662763</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30033000" />
+    <option name="totallyTimeSpent" value="35605000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20895523" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21108742" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -380,8 +509,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4864572" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4864572" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -390,7 +519,7 @@
       <window_info anchor="bottom" id="SonarLint" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50053304" side_tool="true" weight="0.3997833" />
       <window_info anchor="bottom" id="Spring" order="13" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -410,7 +539,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="spring mongo db simple example" />
     <MESSAGE value="simple elasticsearch example" />
-    <option name="LAST_COMMIT_MESSAGE" value="simple elasticsearch example" />
+    <MESSAGE value="simple swagger example" />
+    <MESSAGE value="swagger" />
+    <option name="LAST_COMMIT_MESSAGE" value="swagger" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -499,13 +630,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-elastic-search/src/main/resources/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-mongo-rest-api/src/main/resources/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -562,13 +686,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="9" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -760,6 +877,127 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
           <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-api-doc/spring-boot-api-doc.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-elastic-search/src/main/resources/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="8" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rabbitmq/src/main/resources/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rabbitmq/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/springprojects/model/Notification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="49" column="18" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#650#651#0" expanded="true" />
+            <element signature="e#682#683#0" expanded="true" />
+            <element signature="e#709#710#0" expanded="true" />
+            <element signature="e#750#751#0" expanded="true" />
+            <element signature="e#782#783#0" expanded="true" />
+            <element signature="e#816#817#0" expanded="true" />
+            <element signature="e#846#847#0" expanded="true" />
+            <element signature="e#892#893#0" expanded="true" />
+            <element signature="e#930#931#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/springprojects/config/RabbitMqConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="21" selection-start-line="21" selection-end-line="23" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#257#282#1" expanded="true" />
+            <element signature="e#333#360#1" expanded="true" />
+            <element signature="e#401#429#1" expanded="true" />
+            <element signature="e#528#529#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
+            <element signature="e#784#785#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/springprojects/listener/NotificationListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rabbitmq/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/springprojects/producer/NotificationProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="743">
+          <caret line="42" column="52" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#494#521#1" expanded="true" />
+            <element signature="e#567#595#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/springprojects/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+            <element signature="e#634#635#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

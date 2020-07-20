@@ -10,6 +10,7 @@
         <module name="postgre-example" />
         <module name="spring-elastic-search" />
         <module name="spring-mongo-rest-api" />
+        <module name="spring-rabbitmq" />
         <module name="spring-boot-api-doc" />
       </profile>
     </annotationProcessing>
@@ -20,6 +21,7 @@
       <module name="spring-boot-api-doc" options="-parameters" />
       <module name="spring-elastic-search" options="-parameters" />
       <module name="spring-mongo-rest-api" options="-parameters" />
+      <module name="spring-rabbitmq" options="-parameters" />
     </option>
   </component>
 </project>
