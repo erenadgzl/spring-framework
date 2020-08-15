@@ -7,17 +7,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="postgre-example" />
-        <module name="spring-elastic-search" />
-        <module name="spring-mongo-rest-api" />
-        <module name="spring-rabbitmq" />
         <module name="spring-boot-api-doc" />
+        <module name="spring-mongo-rest-api" />
+        <module name="spring-elastic-search" />
+        <module name="spring-boot-aop" />
+        <module name="postgre-example" />
+        <module name="spring-rabbitmq" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="postgre-example" options="-parameters" />
+      <module name="spring-boot-aop" options="-parameters" />
       <module name="spring-boot-api-doc" options="-parameters" />
       <module name="spring-elastic-search" options="-parameters" />
       <module name="spring-mongo-rest-api" options="-parameters" />
