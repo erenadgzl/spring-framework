@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ebf47a4-1be4-40b1-8117-daac6edfd1a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-boot-graphql/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-graphql/src/main/java/com/springprojects/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-graphql/src/main/java/com/springprojects/api/CarMutationResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-graphql/src/main/java/com/springprojects/api/CarQueryResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-graphql/src/main/java/com/springprojects/dto/CarDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-graphql/src/main/java/com/springprojects/entity/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-graphql/src/main/java/com/springprojects/repository/CarRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-graphql/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-graphql/src/main/resources/car.graphqls" afterDir="false" />
+    <list default="true" id="8ebf47a4-1be4-40b1-8117-daac6edfd1a3" name="Default Changelist" comment="AOP example">
+      <change afterPath="$PROJECT_DIR$/spring-boot-rest-template/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-rest-template/src/main/java/com/springprojects/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-rest-template/src/main/java/com/springprojects/api/RestClientController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -25,6 +18,7 @@
     <ignored path="$PROJECT_DIR$/spring-boot-api-doc/target/" />
     <ignored path="$PROJECT_DIR$/spring-rabbitmq/target/" />
     <ignored path="$PROJECT_DIR$/spring-boot-graphql/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot-rest-template/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,82 +43,35 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-graphql/pom.xml">
+        <entry file="file://$PROJECT_DIR$/spring-boot-rest-template/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+            <state relative-caret-position="374">
+              <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-graphql/src/main/java/com/springprojects/repository/CarRepository.java">
+        <entry file="file://$PROJECT_DIR$/spring-boot-rest-template/src/main/java/com/springprojects/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+            <state relative-caret-position="62">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-graphql/src/main/java/com/springprojects/Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#380#381#0" expanded="true" />
+                <element signature="e#420#421#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-boot-graphql/src/main/java/com/springprojects/api/CarQueryResolver.java">
+        <entry file="file://$PROJECT_DIR$/spring-boot-rest-template/src/main/java/com/springprojects/api/RestClientController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#652#653#0" expanded="true" />
-                <element signature="e#701#702#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-graphql/src/main/java/com/springprojects/api/CarMutationResolver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" column="24" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#541#542#0" expanded="true" />
-                <element signature="e#603#604#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-graphql/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-graphql/src/main/java/com/springprojects/entity/Car.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="26" column="23" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="23" />
+            <state relative-caret-position="350">
+              <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -133,19 +80,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-graphql/src/main/resources/car.graphqls">
+        <entry file="file://$PROJECT_DIR$/postgre-example/src/main/java/com/springprojects/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+            <state relative-caret-position="374">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-graphql/src/main/java/com/springprojects/dto/CarDto.java">
+        <entry file="file://$PROJECT_DIR$/postgre-example/src/main/java/com/springprojects/entity/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="351">
+              <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="31" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/postgre-example/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -170,17 +132,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="swagger" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring-mongo-rest-api/src/main/docker-compose.yml" />
-        <option value="$PROJECT_DIR$/spring-mongo-rest-api/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-mongo-rest-api/src/main/java/com/springprojects/repository/UserRepository.java" />
-        <option value="$PROJECT_DIR$/spring-mongo-rest-api/src/main/java/com/springprojects/entity/User.java" />
         <option value="$PROJECT_DIR$/spring-mongo-rest-api/src/main/java/com/springprojects/UserApi.java" />
         <option value="$PROJECT_DIR$/spring-mongo-rest-api/src/main/java/com/springprojects/Application.java" />
         <option value="$PROJECT_DIR$/spring-mongo-rest-api/src/main/resources/application.properties" />
@@ -228,6 +186,10 @@
         <option value="$PROJECT_DIR$/spring-boot-graphql/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/spring-boot-graphql/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-graphql/src/main/resources/car.graphqls" />
+        <option value="$PROJECT_DIR$/spring-boot-rest-template/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-rest-template/src/main/java/com/springprojects/Application.java" />
+        <option value="$PROJECT_DIR$/spring-boot-rest-template/src/main/java/com/springprojects/entity/UserDto.java" />
+        <option value="$PROJECT_DIR$/spring-boot-rest-template/src/main/java/com/springprojects/api/RestClientController.java" />
       </list>
     </option>
   </component>
@@ -239,9 +201,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-3" />
-    <option name="width" value="1936" />
-    <option name="height" value="1046" />
+    <option name="x" value="-1233" />
+    <option name="y" value="265" />
+    <option name="width" value="2420" />
+    <option name="height" value="1100" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -261,60 +224,25 @@
             <path>
               <item name="spring-examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-aop" type="462c0819:PsiDirectoryNode" />
+              <item name="postgre-example" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-aop" type="462c0819:PsiDirectoryNode" />
+              <item name="postgre-example" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-aop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-aop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-aop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springprojects" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-graphql" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-graphql" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-graphql" type="462c0819:PsiDirectoryNode" />
+              <item name="postgre-example" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-graphql" type="462c0819:PsiDirectoryNode" />
+              <item name="postgre-example" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -322,7 +250,7 @@
             <path>
               <item name="spring-examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-graphql" type="462c0819:PsiDirectoryNode" />
+              <item name="postgre-example" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -331,50 +259,20 @@
             <path>
               <item name="spring-examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-graphql" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springprojects" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-rest-template" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-graphql" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-rest-template" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springprojects" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-graphql" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-rest-template" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springprojects" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-graphql" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springprojects" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-graphql" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -417,7 +315,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application (2)">
+  <component name="RunManager" selected="Spring Boot.Application (5)">
     <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="spring-rabbitmq" />
       <extension name="coverage">
@@ -457,11 +355,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="spring-mongo-rest-api" />
+    <configuration name="Application (4)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="postgre-example" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.springprojects.model.*" />
+          <option name="PATTERN" value="com.springprojects.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springprojects.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (5)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-rest-template" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springprojects.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -511,11 +422,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Application (5)" />
+        <item itemvalue="Spring Boot.Application (4)" />
         <item itemvalue="Spring Boot.Application (2)" />
         <item itemvalue="Spring Boot.Application (3)" />
         <item itemvalue="Spring Boot.Application (1)" />
-        <item itemvalue="Spring Boot.Application (1)" />
-        <item itemvalue="Spring Boot.Application" />
       </list>
     </recent_temporary>
   </component>
@@ -576,23 +487,22 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44066000" />
+    <option name="totallyTimeSpent" value="51317000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-1927" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28198293" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26510066" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="GraphQL" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.66630554" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.66572237" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -605,6 +515,7 @@
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50053304" side_tool="true" weight="0.3997833" />
       <window_info anchor="bottom" id="Spring" order="13" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.32936078" />
+      <window_info anchor="bottom" id="GraphQL" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -652,49 +563,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring-mongo-rest-api/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="49" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-mongo-rest-api/src/main/java/com/springprojects/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="743">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#450#451#0" expanded="true" />
-            <element signature="e#478#479#0" expanded="true" />
-            <element signature="e#509#510#0" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
-            <element signature="e#576#577#0" expanded="true" />
-            <element signature="e#608#609#0" expanded="true" />
-            <element signature="e#643#644#0" expanded="true" />
-            <element signature="e#674#675#0" expanded="true" />
-            <element signature="e#722#723#0" expanded="true" />
-            <element signature="e#762#763#0" expanded="true" />
-            <element signature="e#805#806#0" expanded="true" />
-            <element signature="e#843#844#0" expanded="true" />
-            <element signature="e#906#907#0" expanded="true" />
-            <element signature="e#960#961#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-mongo-rest-api/src/main/resources/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-elastic-search/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-elastic-search/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="616">
@@ -786,39 +654,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/postgre-example/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/postgre-example/src/main/java/com/springprojects/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
-          <folding>
-            <element signature="e#685#686#0" expanded="true" />
-            <element signature="e#747#748#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/postgre-example/src/main/java/com/springprojects/dto/AddressDto.java" />
     <entry file="file://$PROJECT_DIR$/postgre-example/src/main/java/com/springprojects/entity/Address.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/postgre-example/src/main/java/com/springprojects/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -839,23 +679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/postgre-example/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="50" column="12" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="50" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/postgre-example/src/main/java/com/springprojects/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1083,16 +906,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-graphql/src/main/java/com/springprojects/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-graphql/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -1127,6 +940,96 @@
             <element signature="imports" expanded="true" />
             <element signature="e#652#653#0" expanded="true" />
             <element signature="e#701#702#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-graphql/src/main/java/com/springprojects/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/postgre-example/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="50" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-rest-template/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-rest-template/src/main/java/com/springprojects/entity/UserDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/postgre-example/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/postgre-example/src/main/java/com/springprojects/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/postgre-example/src/main/java/com/springprojects/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="31" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/postgre-example/src/main/java/com/springprojects/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-rest-template/src/main/java/com/springprojects/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-rest-template/src/main/java/com/springprojects/api/RestClientController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

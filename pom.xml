@@ -16,6 +16,7 @@
         <module>spring-rabbitmq</module>
         <module>spring-boot-aop</module>
         <module>spring-boot-graphql</module>
+        <module>spring-boot-rest-template</module>
     </modules>
 
 

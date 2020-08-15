@@ -13,6 +13,7 @@
         <module name="spring-boot-graphql" />
         <module name="spring-boot-aop" />
         <module name="postgre-example" />
+        <module name="spring-boot-rest-template" />
         <module name="spring-rabbitmq" />
       </profile>
     </annotationProcessing>
@@ -23,6 +24,7 @@
       <module name="spring-boot-aop" options="-parameters" />
       <module name="spring-boot-api-doc" options="-parameters" />
       <module name="spring-boot-graphql" options="-parameters" />
+      <module name="spring-boot-rest-template" options="-parameters" />
       <module name="spring-elastic-search" options="-parameters" />
       <module name="spring-mongo-rest-api" options="-parameters" />
       <module name="spring-rabbitmq" options="-parameters" />
