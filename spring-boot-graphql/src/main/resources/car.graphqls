@@ -1,0 +1,21 @@
+type Car {
+    id: ID!,
+    brand: String!,
+    model: String,
+    year: String
+}
+
+input CarDto {
+    brand: String!,
+    model: String!,
+    year: String!
+}
+
+type Query {
+    getCarList(brand: String):[Car]
+    getCar(id: ID):Car
+}
+
+type Mutation {
+    createCar(car: CarDto):Car
+}
