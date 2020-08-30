@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ebf47a4-1be4-40b1-8117-daac6edfd1a3" name="Default Changelist" comment="AOP example">
-      <change afterPath="$PROJECT_DIR$/spring-boot-rest-template/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-rest-template/src/main/java/com/springprojects/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-rest-template/src/main/java/com/springprojects/api/RestClientController.java" afterDir="false" />
+    <list default="true" id="8ebf47a4-1be4-40b1-8117-daac6edfd1a3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/spring-redis-cache/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-redis-cache/spring-redis-cache.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-redis-cache/src/main/java/com/springprojects/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-redis-cache/src/main/java/com/springprojects/api/RedisCacheController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-redis-cache/src/main/java/com/springprojects/config/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-redis-cache/src/main/java/com/springprojects/service/RedisCacheService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-redis-cache/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -19,6 +23,7 @@
     <ignored path="$PROJECT_DIR$/spring-rabbitmq/target/" />
     <ignored path="$PROJECT_DIR$/spring-boot-graphql/target/" />
     <ignored path="$PROJECT_DIR$/spring-boot-rest-template/target/" />
+    <ignored path="$PROJECT_DIR$/spring-redis-cache/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,69 +50,65 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-rest-template/pom.xml">
+        <entry file="file://$PROJECT_DIR$/spring-redis-cache/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+            <state relative-caret-position="726">
+              <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-rest-template/src/main/java/com/springprojects/Application.java">
+        <entry file="file://$PROJECT_DIR$/spring-redis-cache/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-redis-cache/src/main/java/com/springprojects/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="62">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="264">
+              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#380#381#0" expanded="true" />
-                <element signature="e#420#421#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-redis-cache/src/main/java/com/springprojects/config/AppConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-redis-cache/src/main/java/com/springprojects/service/RedisCacheService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#430#431#0" expanded="true" />
+                <element signature="e#466#467#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-boot-rest-template/src/main/java/com/springprojects/api/RestClientController.java">
+        <entry file="file://$PROJECT_DIR$/spring-redis-cache/src/main/java/com/springprojects/api/RedisCacheController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+            <state relative-caret-position="330">
+              <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/postgre-example/src/main/java/com/springprojects/Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/postgre-example/src/main/java/com/springprojects/entity/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="31" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/postgre-example/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -139,11 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring-mongo-rest-api/src/main/java/com/springprojects/UserApi.java" />
-        <option value="$PROJECT_DIR$/spring-mongo-rest-api/src/main/java/com/springprojects/Application.java" />
-        <option value="$PROJECT_DIR$/spring-mongo-rest-api/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/spring-elastic-search/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-elastic-search/src/main/resources/docker-compose.yml" />
         <option value="$PROJECT_DIR$/spring-elastic-search/src/main/java/com/springprojects/Application.java" />
         <option value="$PROJECT_DIR$/spring-elastic-search/src/main/java/com/springprojects/entity/User.java" />
         <option value="$PROJECT_DIR$/spring-elastic-search/src/main/java/com/springprojects/repository/UserRepository.java" />
@@ -190,6 +186,11 @@
         <option value="$PROJECT_DIR$/spring-boot-rest-template/src/main/java/com/springprojects/Application.java" />
         <option value="$PROJECT_DIR$/spring-boot-rest-template/src/main/java/com/springprojects/entity/UserDto.java" />
         <option value="$PROJECT_DIR$/spring-boot-rest-template/src/main/java/com/springprojects/api/RestClientController.java" />
+        <option value="$PROJECT_DIR$/spring-redis-cache/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-redis-cache/src/main/java/com/springprojects/Application.java" />
+        <option value="$PROJECT_DIR$/spring-redis-cache/src/main/java/com/springprojects/config/AppConfiguration.java" />
+        <option value="$PROJECT_DIR$/spring-redis-cache/src/main/java/com/springprojects/service/RedisCacheService.java" />
+        <option value="$PROJECT_DIR$/spring-redis-cache/src/main/java/com/springprojects/api/RedisCacheController.java" />
       </list>
     </option>
   </component>
@@ -200,11 +201,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1233" />
-    <option name="y" value="265" />
-    <option name="width" value="2420" />
-    <option name="height" value="1100" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1937" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -214,6 +215,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -224,53 +226,18 @@
             <path>
               <item name="spring-examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="postgre-example" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-redis-cache" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="postgre-example" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-redis-cache" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="postgre-example" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="postgre-example" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="postgre-example" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springprojects" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-rest-template" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-rest-template" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-rest-template" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-redis-cache" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -278,7 +245,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -315,20 +281,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application (5)">
-    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="spring-rabbitmq" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.springprojects.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springprojects.Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.Application (6)">
     <configuration name="Application (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="spring-boot-graphql" />
       <extension name="coverage">
@@ -381,11 +334,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="spring-elastic-search" />
+    <configuration name="Application (6)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-redis-cache" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.springprojects.model.*" />
+          <option name="PATTERN" value="com.springprojects.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -422,11 +375,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Application (6)" />
         <item itemvalue="Spring Boot.Application (5)" />
         <item itemvalue="Spring Boot.Application (4)" />
         <item itemvalue="Spring Boot.Application (2)" />
         <item itemvalue="Spring Boot.Application (3)" />
-        <item itemvalue="Spring Boot.Application (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -447,6 +400,7 @@
       <workItem from="1595117388574" duration="12130000" />
       <workItem from="1595273180167" duration="4990000" />
       <workItem from="1597500672281" duration="4134000" />
+      <workItem from="1598712209680" duration="6573000" />
     </task>
     <task id="LOCAL-00001" summary="spring mongo db simple example">
       <created>1595074402090</created>
@@ -483,17 +437,24 @@
       <option name="project" value="LOCAL" />
       <updated>1595172662763</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Simple rest template example">
+      <created>1597533183021</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1597533183022</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51317000" />
+    <option name="totallyTimeSpent" value="59189000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1927" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-9" y="-9" width="1937" height="1048" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26510066" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2679808" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -502,8 +463,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.66572237" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.3997833" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36612022" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.3989071" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -536,7 +497,8 @@
     <MESSAGE value="simple swagger example" />
     <MESSAGE value="swagger" />
     <MESSAGE value="AOP example" />
-    <option name="LAST_COMMIT_MESSAGE" value="AOP example" />
+    <MESSAGE value="Simple rest template example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Simple rest template example" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -563,70 +525,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring-elastic-search/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-elastic-search/src/main/java/com/springprojects/repository/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="19" column="72" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-elastic-search/src/main/java/com/springprojects/api/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-mongo-rest-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="11" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/postgre-example/src/main/java/com/springprojects.java" />
-    <entry file="file://$PROJECT_DIR$/spring-mongo-rest-api/src/main/java/com/springprojects/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="15" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/postgre-example/src/main/java/com/springprojects/repo/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="67" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.3.1.RELEASE/spring-data-commons-2.3.1.RELEASE.jar!/org/springframework/data/repository/PagingAndSortingRepository.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/postgre-example/src/main/java/com/springprojects/repo/AddressRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -741,13 +639,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-rabbitmq/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/springprojects/model/Notification.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
@@ -799,16 +690,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#214#215#0" expanded="true" />
             <element signature="e#239#240#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/springprojects/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -968,13 +849,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-rest-template/src/main/java/com/springprojects/entity/UserDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-rest-template/src/main/java/com/springprojects/entity/UserDto.java" />
     <entry file="file://$PROJECT_DIR$/postgre-example/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -994,7 +869,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/postgre-example/src/main/java/com/springprojects/entity/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
+        <state relative-caret-position="545">
           <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="31" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1028,6 +903,89 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-aop/src/main/java/com/springprojects/service/MessageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-aop/src/main/java/com/springprojects/aspects/ServiceAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rabbitmq/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="50" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-redis-cache/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rabbitmq/src/main/java/com/springprojects/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-redis-cache/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-redis-cache/src/main/java/com/springprojects/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-redis-cache/src/main/java/com/springprojects/config/AppConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-redis-cache/src/main/java/com/springprojects/service/RedisCacheService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-redis-cache/src/main/java/com/springprojects/api/RedisCacheController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
